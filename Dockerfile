@@ -28,6 +28,7 @@ RUN rm -rf /tmp/NAIBR/
 
 # Deps
 RUN pip install \
+	future \
 	matplotlib \
 	mpmath \
 	numpy \
